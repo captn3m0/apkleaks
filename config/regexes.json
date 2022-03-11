@@ -44,6 +44,13 @@
 	"PayPal_Braintree_Access_Token": "access_token\\$production\\$[0-9a-z]{16}\\$[0-9a-f]{32}",
 	"PGP_private_key_block": "-----BEGIN PGP PRIVATE KEY BLOCK-----",
 	"Picatic_API_Key": "sk_live_[0-9a-z]{32}",
+	"Razorpay Key ID": ["rzp_(test|live)_[a-zA-Z0-9]{14}"],
+	"Razorpay Key Secret": [
+		"[r|R][a|A][z|Z][o|O][r|R].{0,40}[^A-Z0-9a-z\\.]([a-zA-Z0-9]{24})\\b",
+		"[r|R][z|Z][p|P].{0,40}[^A-Z0-9a-z\\.]([a-zA-Z0-9]{24})\\b",
+		"[r|R][z|Z][p|P]\\w{0,10}[s|S][e|E][c|C][r|R][e|E][t|T].{0,40}[^A-Z0-9a-z\\.]([a-zA-Z0-9]{24})\\b",
+		"[r|R][a|A][z|Z][o|O][r|R]\\w{0,10}[s|S][e|E][c|C][r|R][e|E][t|T].{0,40}[^A-Z0-9a-z\\.]([a-zA-Z0-9]{24})\\b"
+	]
 	"RSA_Private_Key": "-----BEGIN RSA PRIVATE KEY-----",
 	"Slack_Token": "(xox[p|b|o|a]-[0-9]{12}-[0-9]{12}-[0-9]{12}-[a-z0-9]{32})",
 	"Slack_Webhook": "https://hooks.slack.com/services/T[a-zA-Z0-9_]{8}/B[a-zA-Z0-9_]{8}/[a-zA-Z0-9_]{24}",
